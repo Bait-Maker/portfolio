@@ -5,7 +5,7 @@ export const metadata = {
   description: "The portfolio of Jakub Dejworek, Full Stack Developer",
   keywords: ["Next.js", "React", "JavaScript"],
   other: {
-    "google-site-verification": "PnbZvk0ghTCKRK3",
+    "google-site-verification": "PnbZvk0ghTCKRK3_wQLUNL_LAyZlJez-derhcmwFEYc",
   },
 };
 
