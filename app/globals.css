@@ -1,27 +1,48 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --primary: rgb(67, 120, 212);
+  --primary-content: rgb(255, 255, 255);
+  --primary-dark: rgb(42, 95, 186);
+  --primary-light: rgb(108, 150, 221);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --secondary: rgb(212, 67, 67);
+  --secondary-content: rgb(255, 255, 255);
+  --secondary-dark: rgb(186, 42, 42);
+  --secondary-light: rgb(221, 108, 108);
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+  --background: rgb(19, 24, 32);
+  --foreground: rgb(29, 36, 48);
+  --border: rgb(48, 59, 80);
+  --sidebar: #0f131a;
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --copy: rgb(250, 251, 252);
+  --copy-light: rgb(207, 214, 226);
+  --copy-lighter: rgb(143, 160, 188);
+
+  --success: rgb(67, 212, 67);
+  --warning: rgb(212, 212, 67);
+  --error: rgb(212, 67, 67);
+  --success-content: rgb(4, 20, 4);
+  --warning-content: rgb(20, 20, 4);
+  --error-content: rgb(255, 255, 255);
+
+  --logo-js: rgb(247, 223, 30);
+  --logo-html: rgb(255, 87, 51);
+  --logo-css: rgb(41, 101, 241);
+  --logo-react: rgb(97, 219, 251);
+  --logo-android: rgb(50, 222, 132);
+  --logo-github: rgb(255, 255, 255);
+
+
+  --fs-h1: 6rem;
+  --fs-h2: 3rem;
+  --fs-h3: 1.25rem;
+  --fs-sub-title: 2.25rem;
+  --fs-p: 1rem;
+  --fs-small: .875rem;
+  --fs-xs: .75rem;
+
+  --fw-bold: 900;
+  --fw-semibold: 600;
 }
 
 * {
@@ -30,13 +51,19 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body {
+  background: var(--background);
+  color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+html {
+  scroll-behavior: smooth;
+}
+
+.writing-vertical {
+  writing-mode: vertical-lr;
+}
+
+.section-wrapper {
+  margin-top: calc(8rem * calc(1 - 0));
 }

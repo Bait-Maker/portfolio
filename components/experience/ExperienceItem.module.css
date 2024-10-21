@@ -1,0 +1,42 @@
+.wrapper {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.titleDiv {
+    display: flex;
+    margin-bottom: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleSpan {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+.infoDiv {
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoSpan {
+    color: var(--primary-light);
+    font-weight: 700;
+}
+
+.para {
+    margin-bottom: 1.5rem;
+    line-height: 1.625;
+    color: var(--primary-content);
+}
+
+.chipDiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}

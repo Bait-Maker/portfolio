@@ -1,0 +1,17 @@
+.contentWrapper {
+    display: grid;
+    grid-template-columns: 54px 1fr;
+}
+
+.contentContainer {
+    margin: 0 auto;
+    max-width: 64rem;
+    padding: 0 1rem 6rem 1rem;
+}
+
+@media (min-width: 768px) {
+    .contentContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

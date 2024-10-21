@@ -1,0 +1,62 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    height: 2.5rem;
+    background-color: var(--background);
+    padding-left: 0.75rem;
+    padding-right: 1rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    cursor: pointer;
+    border: 2px solid var(--primary-content);
+    color: var(--primary-content);
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: var(--primary);
+    padding-left: 0.5rem;
+    color: var(--primary-content);
+}
+
+.button:active {
+    background-color: var(--border);
+}
+
+.span {
+    padding: 0.25rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    background-color: #000000;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.button:hover .span {
+    background-color: var(--primary-content);
+}
+
+.icon {
+    transform: translate(0px, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+    font-size: 0px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.button:hover .icon {
+    color: #000000;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    transform: translate(0px, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+
+}
+
+.button:active .icon {
+    --transform-rotate: -45deg;
+}

@@ -1,0 +1,29 @@
+.motionNav {
+    background-color: var(--sidebar);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.spanWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: var(--fs-h3);
+    font-weight: 900;
+    line-height: 1;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem 0;
+}
+
+.span {
+    color: var(--primary);
+}

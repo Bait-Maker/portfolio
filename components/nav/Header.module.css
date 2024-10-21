@@ -1,0 +1,32 @@
+.header {
+    height: 4.5rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background-color: rgb(var(--background), 50);
+    backdrop-filter: blur(12px);
+}
+
+.linkDiv {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    gap: 1rem;
+}
+
+.link {
+    color: var(--primary-content);
+    opacity: 1;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.link:hover {
+    color: var(--primary-light);
+}

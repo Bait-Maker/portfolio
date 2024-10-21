@@ -1,0 +1,139 @@
+/* From Uiverse.io by doniaskima */
+.button,
+.button *,
+.button :after,
+.button :before,
+.button:after,
+.button:before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+.button {
+    /* -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button; */
+    background-color: var(--background);
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: var(--fs-small);
+    font-weight: 500;
+    line-height: 2;
+    margin: 0;
+    /* -webkit-mask-image: -webkit-radial-gradient(#000, #fff); */
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.button:disabled {
+    cursor: default;
+}
+
+.button:-moz-focusring {
+    outline: auto;
+}
+
+.button svg {
+    display: block;
+    vertical-align: middle;
+}
+
+.button [hidden] {
+    display: none;
+}
+
+.button {
+    border-radius: 0.65rem;
+    border-width: 2px;
+    padding: 0.4rem 1.5rem;
+    z-index: 0;
+}
+
+.button,
+.button .textContainer {
+    overflow: hidden;
+    position: relative;
+}
+
+.button .textContainer {
+    display: block;
+    mix-blend-mode: difference;
+}
+
+.button .text {
+    display: block;
+    position: relative;
+}
+
+.button:hover .text {
+    -webkit-animation: move-up-alternate 0.3s forwards;
+    animation: move-up-alternate 0.3s forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(80%);
+    }
+
+    51% {
+        transform: translateY(-80%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes move-up-alternate {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(80%);
+    }
+
+    51% {
+        transform: translateY(-80%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.button:after,
+.button:before {
+    --skew: 0.2;
+    background: #fff;
+    content: "";
+    display: block;
+    height: 102%;
+    left: calc(-50% - 50% * var(--skew));
+    pointer-events: none;
+    position: absolute;
+    top: -104%;
+    transform: skew(calc(150deg * var(--skew))) translateY(var(--progress, 0));
+    transition: transform 0.2s ease;
+    width: 100%;
+}
+
+.button:after {
+    --progress: 0%;
+    left: calc(50% + 50% * var(--skew));
+    top: 102%;
+    z-index: -1;
+}
+
+.button:hover:before {
+    --progress: 100%;
+}
+
+.button:hover:after {
+    --progress: -102%;
+}
