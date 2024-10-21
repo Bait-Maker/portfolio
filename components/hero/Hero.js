@@ -14,17 +14,17 @@ export const Hero = () => {
         <div className={styles.container}>
           <Reveal>
             <h1 className={styles.h1}>
-              Hi, I'm Jakub<span className={styles.h1Span}>.</span>
+              Hi, I&apos;m Jakub<span className={styles.h1Span}>.</span>
             </h1>
           </Reveal>
           <Reveal>
             <h2 className={styles.h2}>
-              I'm a <span className={styles.h2Span}>Full Stack Developer</span>
+              I&apos;m a <span className={styles.h2Span}>Full Stack Developer</span>
             </h2>
           </Reveal>
           <Reveal>
             <p className={styles.paragraph}>
-              Welcome! I'm a passionate full stack developer dedicated to
+              Welcome! I&apos;m a passionate full stack developer dedicated to
               building innovative web applications with dynamic and
               user-friendly freatures.
             </p>
