@@ -4,7 +4,9 @@ export const metadata = {
   title: "Jakub Dejworek",
   description: "The portfolio of Jakub Dejworek, Full Stack Developer",
   keywords: ["Next.js", "React", "JavaScript"],
-  "google-site-verification": "PnbZvk0ghTCKRK3",
+  other: {
+    "google-site-verification": "PnbZvk0ghTCKRK3",
+  },
 };
 
 export default function RootLayout({ children }) {
