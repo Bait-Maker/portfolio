@@ -14,7 +14,7 @@ export const About = () => {
           <Reveal>
             <p className={styles.firstParagraph}>
               <span className={styles.span}>H</span>
-              ello! I'm Jakub, I'm a full stack web & Android app developer
+              ello! I&apos;m Jakub, I&apos;m a full stack web & Android app developer
               hailing from the Windy City of Chicago, Illinois. I specialize
               primarily in web development, but I have worked on mobile apps for
               the company Shure.
@@ -22,16 +22,16 @@ export const About = () => {
           </Reveal>
           <Reveal>
             <p className={styles.paragraph}>
-              When I'm not in front of my computer I like to keep fit 💪, solve
-              all kinds of twisty puzzles 🧩, and take silly photos 📷 when I'm
+              When I&apos;m not in front of my computer I like to keep fit 💪, solve
+              all kinds of twisty puzzles 🧩, and take silly photos 📷 when I&apos;m
               out and about.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.paragraph}>
-              I'm passively looking for new positions where I can combine my
+              I&apos;m passively looking for new positions where I can combine my
               love for code with my love for solving puzzles. If you think
-              you've got an opening tha I might like, let's connect 🔗
+              you&apos;ve got an opening tha I might like, let&apos;s connect 🔗
             </p>
           </Reveal>
           <Reveal>
