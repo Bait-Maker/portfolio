@@ -2,6 +2,7 @@ import { LogoRolodex } from "./LogoRolodex";
 import { LogoItem } from "./logoItem";
 import {
   SiJavascript,
+  SiTypescript,
   SiHtml5,
   SiCss3,
   SiReact,
@@ -25,6 +26,14 @@ export const LogoOrigmai = () => {
 
           <LogoItem
             key={2}
+            background={"var(--logo-ts)"}
+            className={styles.logoItem}
+          >
+            <SiTypescript />
+          </LogoItem>,
+
+          <LogoItem
+            key={3}
             background={"var(--logo-html)"}
             className={styles.logoItem}
           >
@@ -32,7 +41,7 @@ export const LogoOrigmai = () => {
           </LogoItem>,
 
           <LogoItem
-            key={3}
+            key={4}
             background={"var(--logo-css)"}
             className={styles.logoItem}
           >
@@ -40,7 +49,7 @@ export const LogoOrigmai = () => {
           </LogoItem>,
 
           <LogoItem
-            key={4}
+            key={5}
             background={"var(--logo-react)"}
             className={styles.logoItem}
           >
@@ -48,7 +57,7 @@ export const LogoOrigmai = () => {
           </LogoItem>,
 
           <LogoItem
-            key={5}
+            key={6}
             background={"var(--logo-github)"}
             className={styles.logoItem}
           >
@@ -56,7 +65,7 @@ export const LogoOrigmai = () => {
           </LogoItem>,
 
           <LogoItem
-            key={5}
+            key={7}
             background={"var(--logo-android)"}
             className={styles.logoItem}
           >

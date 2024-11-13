@@ -16,6 +16,7 @@ export const Stats = () => {
           </h4>
           <div className={styles.container}>
             <Chip>JavaScript</Chip>
+            <Chip>TypeScript</Chip>
             <Chip>HTML</Chip>
             <Chip>CSS</Chip>
             <Chip>React</Chip>
