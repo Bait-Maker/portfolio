@@ -4,6 +4,7 @@ import { Project } from "./Project";
 import projectImg from "@/assets/project-imgs/coming-soon.png";
 import portfolioImg from "@/assets/project-imgs/portImg.jpg";
 import JdImg from "@/assets/project-imgs/jd-coverImg.png";
+import flooringGatorsImg from "@/assets/project-imgs/flooringgators_screencap.png"
 
 import styles from "./Projects.module.css";
 
@@ -25,7 +26,7 @@ const projects = [
   {
     title: "My Portfolio ^_^",
     imgSrc: portfolioImg.src,
-    code: "https://www.github.com",
+    code: "https://github.com/Bait-Maker/portfolio",
     projectLink: "/",
     tech: ["React", "Next.js", "Vercel", "Framer Motion"],
     description:
@@ -49,7 +50,7 @@ const projects = [
     imgSrc: JdImg.src,
     code: "https://www.github.com",
     projectLink: "https://www.jdexteriorcontractors.com/",
-    tech: ["React", "Next.js", "Postgres", "Vercel"],
+    tech: ["Next.js", "Resend", "Supabase", "Vercel"],
     description:
       "My father's contracting website. He works on siding, windows, doors, decks, gutters, roof, etc.",
     modalContent: (
@@ -81,11 +82,11 @@ const projects = [
     ),
   },
   {
-    title: "Media Converter (Coming Soon)",
-    imgSrc: projectImg.src,
+    title: "Flooring Gators",
+    imgSrc: flooringGatorsImg.src,
     code: "https://www.github.com",
-    projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    tech: ["React", "Next.js", "Spring", "AWS Aurora"],
+    projectLink: "https://www.flooringgators.com/",
+    tech: ["Next.js", "Typescript", "Motion"],
     description:
       "Anything to MP3 but with the capability of converting multiple media files at a time.",
     modalContent: (

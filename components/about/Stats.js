@@ -23,7 +23,7 @@ export const Stats = () => {
             <Chip>Redux</Chip>
             <Chip>GitHub</Chip>
             <Chip>Postgres</Chip>
-            <Chip>AWS</Chip>
+            <Chip>Supabase</Chip>
             <Chip>Kotlin</Chip>
             <Chip>Java</Chip>
             <Chip>Jetpack-Compose</Chip>

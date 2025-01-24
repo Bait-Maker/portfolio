@@ -12,6 +12,7 @@
     width: 100%;
     text-decoration: none;
     opacity: .5;
+    color: var(--primary-content);
 }
 
 .motionLink:visited {
