@@ -48,7 +48,7 @@ const projects = [
   {
     title: "J.D Exterior (Coming Soon)",
     imgSrc: JdImg.src,
-    code: "https://www.github.com",
+    code: "https://github.com/Bait-Maker/jd-exterior",
     projectLink: "https://www.jdexteriorcontractors.com/",
     tech: ["Next.js", "Resend", "Supabase", "Vercel"],
     description:
@@ -84,33 +84,28 @@ const projects = [
   {
     title: "Flooring Gators",
     imgSrc: flooringGatorsImg.src,
-    code: "https://www.github.com",
+    code: "https://github.com/AK26265/FlooringGators",
     projectLink: "https://www.flooringgators.com/",
     tech: ["Next.js", "Typescript", "Motion"],
     description:
-      "Anything to MP3 but with the capability of converting multiple media files at a time.",
+      "Flooring Gators provides All-In-One flooring service. Offering everything you need in a flooring contractor, including moving furniture, deep cleaning during & ...",
     modalContent: (
       <>
         <p>
-          Etiam id hendrerit nibh. Vestibulum egestas tortor egestas, aliquam
-          ante ac, vulputate purus. Nulla erat turpis, rhoncus eu sem non,
-          venenatis mattis leo. Suspendisse pellentesque tortor non urna
-          sollicitudin varius a ac felis. Duis sed arcu condimentum,
-          sollicitudin ex vulputate, efficitur justo. Sed tristique efficitur
-          justo.
+          Whether you're just looking to apply a maintenance coat, 
+          repair a portion of your floor, change the color of your flooring, 
+          or install brand new flooring - Solid Hardwood, Engineered Wood, Vinyl, 
+          Laminate. Let it be any wood style flooring need, Flooring Gators is always here to help.
         </p>
         <p>
-          Quisque bibendum nibh eros, sagittis rutrum quam pretium a. Maecenas
-          pharetra erat quis dapibus dapibus.
+          This is a super simple project I took on for my friend.
+          I mostly cloned what was already there and added some visual improvments and responsivness, 
+          also played around with tiktok and instagram's post embeding.
         </p>
+        
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-          quia officia odio nulla consectetur aperiam ad tempora magni magnam
-          nesciunt.
-        </p>
-        <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+          We are planning on revamping this website in the near future. The hamburger menu and navbar are 
+          display only for now.
         </p>
       </>
     ),
