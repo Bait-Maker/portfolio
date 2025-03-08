@@ -24,6 +24,67 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "J.D Exterior",
+    imgSrc: JdImg.src,
+    code: "https://github.com/Bait-Maker/jd-exterior",
+    projectLink: "https://www.jdexterior.com/",
+    tech: ["Next.js", "Resend", "Supabase", "Vercel"],
+    description:
+      "My father's contracting website. He works on siding, windows, doors, decks, gutters, roof, etc.",
+    modalContent: (
+      <>
+        <p>
+          My father started his company in the year 2000, since then he has
+          become a reputable and well-known contractor.
+        </p>
+        <p>
+          I took on the exciting challenge of creating a website to help him
+          reach more clients and showcase his work. Each page is visually appealing
+          and easy to navigate. Also the site is optimized for search engines, so
+          potential clients could easily find him online.
+        </p>
+        <p>
+          I'm using Next.Email for custom email templates, Resend to receive emails
+          from the contact form, and Supabase for data and image storage.
+        </p>
+        <p>
+          Launching the website was a proud moment, knowing it would help my
+          father grow his business and connect with more people in need of his
+          contracting services.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Flooring Gators",
+    imgSrc: flooringGatorsImg.src,
+    code: "https://github.com/AK26265/FlooringGators",
+    projectLink: "https://www.flooringgators.com/",
+    tech: ["Next.js", "Typescript", "Motion"],
+    description:
+      "Flooring Gators provides All-In-One flooring service. Offering everything you need in a flooring contractor, including moving furniture, deep cleaning during & ...",
+    modalContent: (
+      <>
+        <p>
+          Whether you're just looking to apply a maintenance coat,
+          repair a portion of your floor, change the color of your flooring,
+          or install brand new flooring - Solid Hardwood, Engineered Wood, Vinyl,
+          Laminate. Let it be any wood style flooring need, Flooring Gators is always here to help.
+        </p>
+        <p>
+          This is a super simple project I took on for my friend.
+          I mostly cloned what was already there and added some visual improvments and responsivness,
+          also played around with tiktok and instagram's post embeding.
+        </p>
+
+        <p>
+          We are planning on revamping this website in the near future. The hamburger menu and navbar are
+          display only for now.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "My Portfolio ^_^",
     imgSrc: portfolioImg.src,
     code: "https://github.com/Bait-Maker/portfolio",
@@ -41,71 +102,6 @@ const projects = [
         <p>
           {" "}
           All text is set with Inter Typeface. Template taken from hover.dev.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "J.D Exterior (Coming Soon)",
-    imgSrc: JdImg.src,
-    code: "https://github.com/Bait-Maker/jd-exterior",
-    projectLink: "https://www.jdexteriorcontractors.com/",
-    tech: ["Next.js", "Resend", "Supabase", "Vercel"],
-    description:
-      "My father's contracting website. He works on siding, windows, doors, decks, gutters, roof, etc.",
-    modalContent: (
-      <>
-        <p>
-          My father started his company in the year 2000, since then he has
-          become a reputable and well-known contractor.
-        </p>
-        <p>
-          I took on the exciting challenge of creating a website to help him
-          reach more clients and showcase his work.
-        </p>
-        <p>I work solely worked on this project.</p>
-        <p>
-          I carefully crafted each page, ensuring it was both visually appealing
-          and easy to navigate. I also optimized the site for search engines, so
-          potential clients could easily find him online.
-        </p>
-        <p>
-          Launching the website was a proud moment, knowing it would help my
-          father grow his business and connect with more people in need of his
-          contracting services.
-        </p>
-        <p>
-          {"(This project is still in development)"} Live Project link will take
-          you to the site I made wix in highschool. {"^_^"}
-        </p>
-      </>
-    ),
-  },
-  {
-    title: "Flooring Gators",
-    imgSrc: flooringGatorsImg.src,
-    code: "https://github.com/AK26265/FlooringGators",
-    projectLink: "https://www.flooringgators.com/",
-    tech: ["Next.js", "Typescript", "Motion"],
-    description:
-      "Flooring Gators provides All-In-One flooring service. Offering everything you need in a flooring contractor, including moving furniture, deep cleaning during & ...",
-    modalContent: (
-      <>
-        <p>
-          Whether you're just looking to apply a maintenance coat, 
-          repair a portion of your floor, change the color of your flooring, 
-          or install brand new flooring - Solid Hardwood, Engineered Wood, Vinyl, 
-          Laminate. Let it be any wood style flooring need, Flooring Gators is always here to help.
-        </p>
-        <p>
-          This is a super simple project I took on for my friend.
-          I mostly cloned what was already there and added some visual improvments and responsivness, 
-          also played around with tiktok and instagram's post embeding.
-        </p>
-        
-        <p>
-          We are planning on revamping this website in the near future. The hamburger menu and navbar are 
-          display only for now.
         </p>
       </>
     ),
