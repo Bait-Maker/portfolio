@@ -21,23 +21,21 @@ const experience = [
     description:
       "Mostly working on personal and family projects while finishing up my schooling.",
     tech: [
-      "JavaScript",
+      "Typescript",
       "React",
       "Next.js",
-      "Vercel",
-      "CSS",
       "Tailwind",
       "Framer-Motion",
-      "Github",
+      "React Native",
     ],
   },
   {
     title: "Shure",
     position: "Mobile Development",
-    time: "2021 - 2023",
+    time: "2021 ~ 2023",
     location: "Niles, Illinois",
     description:
-      "I was an intern for the Mobile Development team. I helped develop the front-end of a moblie app. Also, I migrated an app's frontend from fragments to Jetpack-Compose",
-    tech: ["Java", "Kotlin", "Android Studio", "Jetpack-Compose", "GitHub"],
+      "I was an intern for the Mobile Development team. During the internship, I designed and implemented user interfaces for Android applications. I also migrated part of an app's frontend from fragments and XML to Jetpack-Compose. ",
+    tech: ["Java", "Kotlin", "Android Studio", "Jetpack-Compose", "UI/UX"],
   },
 ];

@@ -4,7 +4,7 @@ import { Project } from "./Project";
 import projectImg from "@/assets/project-imgs/coming-soon.png";
 import portfolioImg from "@/assets/project-imgs/portImg.jpg";
 import JdImg from "@/assets/project-imgs/jd-coverImg.png";
-import flooringGatorsImg from "@/assets/project-imgs/flooringgators_screencap.png"
+import flooringGatorsImg from "@/assets/project-imgs/flooringgators_screencap.png";
 
 import styles from "./Projects.module.css";
 
@@ -39,13 +39,13 @@ const projects = [
         </p>
         <p>
           I took on the exciting challenge of creating a website to help him
-          reach more clients and showcase his work. Each page is visually appealing
-          and easy to navigate. Also the site is optimized for search engines, so
-          potential clients could easily find him online.
+          reach more clients and showcase his work. Each page is visually
+          appealing and easy to navigate. Also the site is optimized for search
+          engines, so potential clients could easily find him online.
         </p>
         <p>
-          I'm using Next.Email for custom email templates, Resend to receive emails
-          from the contact form, and Supabase for data and image storage.
+          I'm using Next.Email for custom email templates, Resend to receive
+          emails from the contact form, and Supabase for data and image storage.
         </p>
         <p>
           Launching the website was a proud moment, knowing it would help my
@@ -66,20 +66,22 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Whether you're just looking to apply a maintenance coat,
-          repair a portion of your floor, change the color of your flooring,
-          or install brand new flooring - Solid Hardwood, Engineered Wood, Vinyl,
-          Laminate. Let it be any wood style flooring need, Flooring Gators is always here to help.
+          Whether you're just looking to apply a maintenance coat, repair a
+          portion of your floor, change the color of your flooring, or install
+          brand new flooring - Solid Hardwood, Engineered Wood, Vinyl, Laminate.
+          Let it be any wood style flooring need, Flooring Gators is always here
+          to help.
         </p>
         <p>
-          This is a super simple project I took on for my friend.
-          I mostly cloned what was already there and added some visual improvments and responsivness,
-          also played around with tiktok and instagram's post embeding.
+          This is a super simple project I took on for my friend. I mostly
+          cloned what was already there and added some visual improvments and
+          responsivness, also played around with tiktok and instagram's post
+          embeding.
         </p>
 
         <p>
-          We are planning on revamping this website in the near future. The hamburger menu and navbar are
-          display only for now.
+          We are planning on revamping this website in the near future. The
+          hamburger menu and navbar are display only for now.
         </p>
       </>
     ),
@@ -112,8 +114,7 @@ const projects = [
     code: "https://www.github.com",
     projectLink: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     tech: ["Lorem", "Ipsum", "Dolor"],
-    description:
-      "This last one is here as decoration until I deploy a fourth project. ^_^",
+    description: "Coming Soon...",
     modalContent: (
       <>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
