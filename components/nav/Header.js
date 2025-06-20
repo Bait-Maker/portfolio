@@ -12,7 +12,7 @@ export const Header = () => {
     <header className={styles.header}>
       <MyLinks />
       <OutlineButton
-        onClick={() => window.open("/Jakub_Dejworek_Resume_Latest.pdf")}
+        onClick={() => window.open("/Jakub Dejworek_Resume-1.pdf")}
       >
         My Resume
       </OutlineButton>
