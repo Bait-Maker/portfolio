@@ -4,16 +4,13 @@ import Link from "next/link";
 
 import styles from "./Header.module.css";
 import { SiGithub, SiLinkedin } from "react-icons/si";
-import { BsTwitterX } from "react-icons/bs";
 import { OutlineButton } from "../buttons/OutlineButton";
 
 export const Header = () => {
   return (
     <header className={styles.header}>
       <MyLinks />
-      <OutlineButton
-        onClick={() => window.open("/Jakub Dejworek_Resume-1.pdf")}
-      >
+      <OutlineButton onClick={() => window.open("/Jakub Dejworek Resume.pdf")}>
         My Resume
       </OutlineButton>
     </header>
@@ -30,15 +27,6 @@ export const MyLinks = () => {
         rel="nofollow"
       >
         <SiLinkedin />
-      </Link>
-
-      <Link
-        className={styles.link}
-        href={"https://x.com/QualityToad"}
-        target="_blank"
-        rel="nofollow"
-      >
-        <BsTwitterX />
       </Link>
 
       <Link

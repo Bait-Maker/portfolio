@@ -2,8 +2,6 @@ import { AiFillMail } from "react-icons/ai";
 import Link from "next/link";
 import Reveal from "../util/Reveal";
 import styles from "./Contact.module.css";
-import { SectionHeader } from "../util/SectionHeader";
-import { ContactForm } from "./ContactForm";
 
 //TODO: Add contact form
 
@@ -29,14 +27,6 @@ export const Contact = () => {
               className={styles.link}
             >
               Linkedin
-            </Link>{" "}
-            or{" "}
-            <Link
-              href="https://x.com/QualityToad"
-              target="_blank"
-              className={styles.link}
-            >
-              X
             </Link>{" "}
             if that&apos;s more your speed.
           </p>
